@@ -26,7 +26,7 @@ def submitcrime():
     latitude = float(request.form.get("latitude"))
     longitude = float(request.form.get("longitude"))
     description = request.form.get("description")
-    DB.add_crime(category, date, longitude, description)
+    DB.add_crime(category, date, latitude, longitude, description)
     return home()
 
 @app.route("/add", methods=["POST"])
