@@ -15,7 +15,7 @@ try:
         longitude FLOAT(10,6),
         date DATETIME,
         category VARCHAR(50),
-        desciption VARCHAR(1000),
+        description VARCHAR(1000),
         updated_at TIMESTAMP,
         PRIMARY KEY (id)
         )"""
